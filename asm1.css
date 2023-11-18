@@ -1,0 +1,566 @@
+body{
+    font-size: 18px;
+    font-style: "Roboto";
+    
+}
+.container{
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.img-fluid{
+    max-width: 100%;
+    display: block;
+}
+.header-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 36px 0;
+}
+.main-menu{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.main-menu-link{
+    padding: 5px 10px;
+}
+.btn-primary{
+    padding: 16px 39px;
+    display: inline-block;
+    background-color: #0099FF;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    cursor:pointer;
+}
+.banner{
+    padding: 10px 10px;
+
+}
+.banner-row{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 30px;
+    align-items: center;
+}
+.banner-title{
+    font-size: 60px ;
+    font-weight: bold;
+    line-height: 110%;
+}
+.banner-dsc{
+    color: #333;
+    margin: 40px 0;
+    line-height: 160%;
+}
+.btn-second{
+    padding: 16px 39px;
+    display: inline-block;
+    background: transparent;
+    border: 1px solid rgb(69, 69, 218);
+    border-radius: 5px;
+    color: blue;
+    margin-left: 16px;
+    cursor: pointer;
+}
+.services{
+    width: 100%;
+    background-color: #F5FBFF;
+    margin-top: auto;
+    margin-left: auto;
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+.services-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.services-img img{
+    height: 100px;
+    width: 100px;
+}
+.services-header{
+    text-align: center;
+    
+}
+.portfolio{
+    padding-bottom: 120px;
+}
+.portfolio-header{
+    text-align: center;
+    max-width: 50%;
+    margin: auto;
+}
+.section-title{
+    font-size: 20px;
+    line-height: 26px;
+    font-style: Inter;
+    padding-top: 124px;
+
+}
+.section-sologan{
+    font-size: 48px;
+    line-height: 66px;
+    margin: 0 0 45px;
+    padding: 0;
+}
+.section-content{
+    font-size: 16px;
+    line-height: 25px;
+    margin: 0 0 40px;
+    
+}
+.services-row{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    display: flex;
+    justify-content: space-between;
+}
+.services-col{
+    box-shadow: 0px 20px 30px rgba(138, 190, 225, 0.226);
+    text-align: center;
+    padding:40px;
+    border-radius: 4px ;
+    background-color: rgba(255, 255, 255, 1);
+}
+.section-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.services-content{
+    padding: 0;
+    font-size: 14px;
+    line-height: 22px;
+}
+.services-title{
+    font-size: 32px;
+    line-height: 43px;
+}
+.about-us{
+    
+}
+.about-row{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 30px;
+    align-items: center;
+    grid-template-areas: "aa bb";
+}
+.about-title{
+    font-size: 20px ;
+    
+}
+.about-col-img{
+    grid-area: aa;
+    margin-top: 167px;
+    padding-bottom: 120px;
+}
+.about-col{
+    grid-area: bb;
+    
+}
+.about-dsc{
+    font-size: 48px;
+    line-height: 66px;
+}
+.about-content{
+    font-size: 16px;
+    line-height: 25px;
+}
+.meet-team{
+    padding: 50px 0;
+    background-color: #EBF7FF;
+}
+.meet-team-img img{
+    width: 308px;
+    height: 379px;
+}
+.meet-team-title{
+    font-size: 20px;
+    line-height: 26px;
+}
+.meet-team-sologan{
+    font-size: 48px;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+.meet-team-content{
+    font-size: 16px;
+    margin-bottom: 80px;
+}
+.meet-team-header{
+    padding-top: 120px;
+    text-align: center;
+}
+.meet-team-box{
+    border: none ;
+    transform: translateY(-50%);  /* cho 1 nửa box lên hình dù ảnh có tăng px lên thì box vẫn ở giữa */
+    border-radius: 5px;
+    box-shadow:0  10px 20px rgba(164, 217, 253, 0.15) ;
+    box-sizing: border-box;
+    position: relative;
+    margin-left: 25px;
+    margin-right: 25px;
+    background-color: #FFFFFF;
+    
+}
+.box-content{
+    padding: 15px;
+}
+.box-icon a{
+    text-decoration: none;
+    color: #333;
+    display: inline-block;
+    margin: 0 5px;
+}
+.box-title{
+    font-size: 24px;
+    line-height: 28px;
+    margin: -15px 0;
+    font-weight: bold;
+    
+}
+.box-cv{
+    font-size: 18px;
+    line-height: 29px;
+    margin: -17px 0;
+}
+.meet-team-row{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 16px;
+}
+.portfolio-row{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:30px;
+}
+.portfolio-col{
+    background: #FFF;
+    border-radius: 4px;
+    box-shadow: 1px 2px 3px 2px rgba(0, 0, 0, 0.174);
+    padding: 15px;
+    
+}
+
+.portfolio-btn-content{
+    font-size: 18px;
+    line-height: 29px;
+    text-decoration: none;
+    color: #333;
+    display: inline-flex;
+    align-items: center;
+    border-bottom: 2px solid #0099FF;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+.portfolio-btn-content img{
+    margin-left: 10px;
+}
+.portfolio-content{
+    font-size: 14px;
+    color: #333;
+    line-height: 155%;
+}
+.portfolio-title{
+    font-size: 32px;
+    text-decoration: none;
+}
+.portfolio-btn{
+    padding: 18px 40px;
+    background-color: #0099FF;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+/* -------- fag start------------- */
+.fag{
+    background-color: rgba(242, 250, 255, 1);
+}
+.fag-header{
+    text-align: center;
+    padding-top: 120px;
+}
+.fag-header-top{
+    font-size: 20px;
+    line-height: 26px;
+    color: #333;
+    margin-bottom: 16px;
+}
+.fag-header-title{
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 66px;
+    padding-bottom: 80px;
+}
+.fag-body{
+    text-align: center;
+    padding-bottom: 120px;
+}
+.fag-body-content{
+    word-wrap: break-word;
+    font-size: 16px;
+    line-height: 25px;
+    padding-bottom: 69px;
+    
+}
+.fag-body-title{
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.fag-body-title img{
+    float: right;
+    margin-right: 50px;
+    
+}
+.fag-body-block1{
+    box-shadow: 0px 10px 20px 0px rgba(164, 217, 253, 0.15);
+    background-color: rgba(255, 255, 255, 1);
+    margin: 0 auto;
+    width: 956px;
+    height: 201px;
+    margin-bottom: 24px;
+}
+.fag-body-block2-list{
+    font-size: 18px;
+    line-height: 29px;
+}
+.fag-body-block2{
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 10px 20px 0px rgba(164, 217, 253, 0.15);
+    height: 93px;
+    width: 956px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+
+
+
+
+
+
+
+/*-----------fag end--------------*/
+footer{
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+
+/* -------------customer start------------- */
+.testimonials{
+    padding-top: 120px;
+    padding-bottom: 102px;
+}
+.testimonials-title{
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 66px;
+    margin: 0;
+    padding-bottom: 24px;
+}
+.testimonials-content{
+    font-size: 16px;
+    line-height: 25px;
+}
+.testimonials-header{
+    padding-bottom: 48px;
+}
+.testimonials-col{
+    box-shadow: 1px solid #333;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 1px 2px 3px 2px rgba(0, 0, 0, 0.174);
+    
+}
+.testimonials-author{
+    display: grid;
+    grid-template-columns: 70px 163px;
+
+}
+.testimonials-row{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 30px;
+}
+.testimonials-author-info-name{
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: bold;
+    margin: 0;
+    padding-bottom: 8px;
+}
+.testimonials-author-info-jobs{
+    font-size: 14px;
+    line-height: 21px;
+}
+
+/* -------------customer end------------- */
+
+/* -------------project-in-mind start------------- */
+.project-in-mind-body{
+    background-color: #333333;
+}
+.project-in-mind-col{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.project-in-mind-content{
+    margin-left: 96px;
+}
+.content-title{
+    font-size: 32px;
+    line-height: 42.5px;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin: 0;
+    padding-top: 110px;
+}
+.content-desc{
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 29px;
+    margin: 0;
+    padding-top: 24px;
+    padding-bottom: 110px;
+}
+.project-in-mind-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.in-mind-btn{
+    padding: 18px 65px;
+    background-color: #0099FF;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+/* -------------project-in-mind end------------- */
+.ending{
+    background-color: rgba(0, 153, 255, 0.04);
+    padding-bottom: 92px;
+}
+.ending-row{
+    padding-top: 104px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.col2-menu-items{
+    list-style: none;
+}
+.col2-menu-items a{
+    color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+.col2-menu-items{
+    margin-bottom: 20px;
+}
+.col1-content{
+    font-size: 18px;
+    line-height: 28.8px;
+    margin: 0;
+    padding-bottom: 32px;
+    padding-top: 42px;
+}
+.col1-icon a{
+    text-decoration: none;
+    margin-right: 5px;
+    color: #333333;
+}
+.col4-title-1{
+    font-size: 20px;
+    line-height: 34px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.col4-content{
+    margin-bottom: 32px;
+}
+.col4-input{
+    background-color: #333333;
+    padding: 12.5px;
+}
+.col4-email{
+    margin-bottom: 24px;
+}
+.logo-col1{
+    height: 70px;
+}
+
+/* --------Reponsive ----------- */
+@media screen and (max-width:1024px) {
+    .services-row{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+
+    }
+    .meet-team-row{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin-left: 70px;
+    }
+    .meet-team-box{
+        margin-right: 177px;
+    }
+    .portfolio-row{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin-left: 40px;
+    }
+}
+@media screen and (max-width:870px){
+    .testimonials-row{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .testimonials-col{
+        margin-left: 10px;
+        margin-bottom: 16px;
+    }
+    .testimonials-header{
+        margin-left: 25px;
+    }
+    .fag-body-block1{
+        width: 700px;
+    }
+    .fag-body-block2{
+        width: 700px;
+    }
+} 
+@media screen and (max-width:920px){
+    .header-img{
+        width: 150px;
+    }
+    .main-menu{
+        padding: 0;
+    }
+    .main-menu li{
+        margin-right: 15px;
+    }
+    .btn-primary{
+        width: 124px;
+        height: 37px;
+        cursor: pointer;
+    }
+}
